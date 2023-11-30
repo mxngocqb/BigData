@@ -1,0 +1,4 @@
+FROM wurstmeister/kafka:latest
+
+# Thêm dòng này để cấp quyền truy cập vào tệp create_topic.sh
+# RUN chmod +x ./create_topic.sh
